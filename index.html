@@ -295,7 +295,7 @@
 
             const downloadReport = () => {
                 const report = `
-LIYA - HAB DETECTION REPORT
+LIYA - HARMFUL ALGAL BLOOM DETECTION REPORT
 ==========================
 Date/Time: ${result.timestamp}
 Location: ${result.location}
@@ -330,7 +330,7 @@ CONTACTS:
                 <div className="max-w-md mx-auto min-h-screen bg-white shadow-2xl flex flex-col relative">
                     <header className="p-6 flex flex-col items-center border-b border-cyan-50">
                         <h1 className="text-4xl font-black text-gray-900 tracking-widest liya-header">LIYA</h1>
-                        <p className="text-[10px] font-bold text-cyan-600 uppercase tracking-[0.3em] mt-1">HAB Detector</p>
+                        <p className="text-[10px] font-bold text-cyan-600 uppercase tracking-[0.3em] mt-1">Harmful Algal Bloom Detector</p>
                     </header>
 
                     <main className="flex-1 overflow-y-auto">
@@ -345,7 +345,7 @@ CONTACTS:
                     </main>
 
                     <footer className="p-4 bg-cyan-50 border-t border-cyan-100 text-center">
-                        <a href={HAB_INFO_URL} target="_blank" className="text-xs font-bold text-cyan-800">Learn About Red Tide & HABs →</a>
+                        <a href={HAB_INFO_URL} target="_blank" className="text-xs font-bold text-cyan-800">Learn About Red Tide & Harmful Algal blooms →</a>
                     </footer>
                 </div>
             );
